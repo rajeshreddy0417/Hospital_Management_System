@@ -45,7 +45,7 @@ public class Patient {
             e.printStackTrace();
             System.out.println(e.getMessage());
         }
-
+        sc.close();
     }
 
     //view Patient
