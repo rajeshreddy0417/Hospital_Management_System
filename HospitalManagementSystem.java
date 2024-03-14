@@ -66,6 +66,7 @@ public class HospitalManagementSystem {
         catch(SQLException e){
             e.printStackTrace();
         }
+          sc.close();
     }
 
 
